@@ -1,6 +1,6 @@
 {
   "name": "deno-init",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/main.js",
   "repository": "https://github.com/envis10n/deno-init.git",
   "bin": {
@@ -9,7 +9,7 @@
   "scripts": {
     "start": "tsc && node .",
     "build": "tsc",
-    "install": "tsc"
+    "install": "npm i @types/node && tsc"
   },
   "license": "MIT",
   "devDependencies": {
